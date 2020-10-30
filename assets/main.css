@@ -1,4 +1,9 @@
 .left{
 
     text-align: left;
+    color: blue;
+}
+
+.kep{
+    width: 400px;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Molnár László oldala</title>
-    <link rel="stylesheet" href="/project-html-001-about-site/assets/main.css">
+    <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
     <header><h1 class="left">About</h1></header>
@@ -14,8 +14,40 @@
         <a href="/gallery.html">Gallery</a>
         <a href="/about.html">About</a>
     </nav>
-    <main></main>
-    <section></section>
+    <main>
+        <img src="/assets/pictures/önarckep.jpg" alt="önarckép">
+    </main>
+    <section>
+        <p>Molnár László a nevem, 42 éves vagyok. Nagyon szeretem az informatikát, a problémák megoldását. Nehéz megtanulni az alapdolgokat, ez a css nem akar megmaradni. Minden erőmmel igyekszem elsajátítani a dolgokat. Tetszik ez a tanfolyam, sokat várok tőle.</p>
+    </section>
+    <section>
+        <h3>Tulajdonságaim</h3>
+        <ul><li><p>akarat</p></li>
+        <li><p>elszántság</p></li>
+        <li><p>lelkesedés</p></li></ul>
+        <h3>Hobbiaim</h3>
+        <ul><li type="I"><p>foci</p></li>
+        <li type="I"><p>angol alap</p></li>
+        <li type="I"><p>honlapok üzemeltetése</p></li></ul>
+    </section>
+
+    <div class="container">
+        <form>
+            <div>
+                <label>Név:*</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label>Email cím: *</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label>Megjegyzés:</label>
+                <textarea name="comment" id="comment" rows="5"></textarea>
+            </div>
+        </form>
+    </div>
+
     <footer>
         <a href="#top">
             <button class="btn">Ugrás az oldal tetejére</button>

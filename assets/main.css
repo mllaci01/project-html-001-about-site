@@ -7,3 +7,30 @@
 .kep{
     width: 400px;
 }
+
+.div-bal{
+    float: left;
+    width: 33%;
+    margin-bottom: 20px;
+}
+.div-jobb{
+    float: right;
+    width: 33%;
+}
+
+.btn{
+    float: left;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    box-shadow: 3px 3px 7px black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.divimg{
+    margin: 10px 10px 10px 10px;
+}

@@ -7,54 +7,60 @@
     <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-    <header><h1 class="left">About</h1></header>
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/works.html">Works</a>
-        <a href="/gallery.html">Gallery</a>
-        <a href="/about.html">About</a>
+    <header>
+        <h3>Rólam</h3>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Munkáim</a></li>
+            <li><a href="gallery.html">Galéria</a></li>
+            <li><a href="about.html">Rólam</a></li>
+        </ul>
     </nav>
     <main>
-        <img src="/assets/pictures/önarckep.jpg" alt="önarckép">
+        <section>
+            <aside class="side-image">
+        <img src="/assets/pictures/önarckep.jpg" alt="önarckép"> </aside>
     </main>
-    <section>
+    <article class="bio">
         <p>Molnár László a nevem, 42 éves vagyok. Nagyon szeretem az informatikát, a problémák megoldását. Nehéz megtanulni az alapdolgokat, ez a css nem akar megmaradni. Minden erőmmel igyekszem elsajátítani a dolgokat. Tetszik ez a tanfolyam, sokat várok tőle.</p>
-    </section>
-    <section>
-        <h3>Tulajdonságaim</h3>
+    </article>
+    <article class="bio">
+        <h4>Tulajdonságaim</h4>
         <ul><li><p>akarat</p></li>
         <li><p>elszántság</p></li>
         <li><p>lelkesedés</p></li></ul>
-        <h3>Hobbiaim</h3>
-        <ul><li type="I"><p>foci</p></li>
-        <li type="I"><p>angol alap</p></li>
-        <li type="I"><p>honlapok üzemeltetése</p></li></ul>
-    </section>
-
-    <div class="container">
-        <form>
-            <div>
-                <label for="name">Név:*</label>
-                <input id="name" name="name" type="text" minlength="5" placeholder="Név beírása" required>
+        <h4>Hobbiaim</h4>
+        <ol><li><p>foci</p></li>
+        <li><p>angol alap</p></li>
+        <li><p>honlapok üzemeltetése</p></li></ol>
+    </article>   
+</section>     
+<section>
+        <form action="" class="message-form">
+            <div class="form-group">
+                <label for="">Név:*</label>
+                <input type="text" min="5" minlength="5" class="form-control" placeholder="Név beírása" required>
             </div>
-            <div>
-                <label for="email">Email cím: *</label>
-                <input id="email" name="email" type="email" placeholder="E-mail cím beírása" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <div class="form-group">
+                <label for="">Email cím: *</label>
+                <input type="email" class="form-control" placeholder="E-mail cím beírása" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </div>
-            <div>
+            <div class="form-group">
                 <label for="comment">Megjegyzés:</label>
-                <textarea name="comment" id="comment" placeholder="Megjegyzés" rows="5"></textarea>
+                <textarea minlength="20" class="form-control" placeholder="Megjegyzés" rows="5" required></textarea>
             </div>
-            <div>
-                <input type="submit" name="küld">
-            </div>
+            
+                <button type="submit">
+                Küldés
+                </button>
         </form>
-    </div>
+</section>
+</main>
 
     <footer>
-        <a href="#top">
-            <button class="btn">Ugrás az oldal tetejére</button>
-        </a>
+        <a href="#main-nav">Menü</a>
     </footer>
 </body>
 </html>

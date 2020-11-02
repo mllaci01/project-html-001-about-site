@@ -7,37 +7,44 @@
     <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-    <header><h1 class="left">Works</h1></header>
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/works.html">Works</a>
-        <a href="/gallery.html">Gallery</a>
-        <a href="/about.html">About</a>
+    <header>
+        <h3>Munkák</h3>
+    </header>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Munkáim</a></li>
+            <li><a href="gallery.html">Galéria</a></li>
+            <li><a href="about.html">Rólam</a></li>
+        </ul>
     </nav>
-    <main></main>
-    <section style="float: left;">
-        <div class="works">
-            <img class="kep" src="/assets/pictures/webovi.jpg" alt="óvoda honlapja"></div>
-           <div class="worksj"><p>Egy óvodának készített nagyon régi oldal, ami bemutatta egy csoport mindennapjait, életét, galériával.</p>
+    <main>
+        <section id="works-section">
+            <article>      
+            <img src="/assets/pictures/webovi.jpg" alt="óvoda honlapja">
+           <div class="right-content">
+               <h4>Első oldalam.</h4>
+               <p>óvodának készített nagyon régi oldal, ami bemutatta egy csoport mindennapjait, életét, galériával.</p>
                </div>
-            </section>
-            <section style="float: left;">
-                <div class="works">
-                    <img class="kep" src="/assets/pictures/malahir.jpg" alt="hírmagazin honlapja"></div>
-                   <div class="worksj"><p>Hírek gyűjteménye sajátos szemszögből, a lehetséges valós tények alapján, cenzúra nélkül.</p>
-                       </div></section>
-                       <section style="float: left;">
-                        <div class="works">
-                            <img class="kep" src="/assets/pictures/biosteril.jpg" alt="kártevőirtás honlapja"></div>
-                           <div class="worksj"><p>Napjaink komoly problémája a kártevők, csótányok, bogarak elzsaporodása, ezek megszüntetésére nyújt segítséget a céget reklámozó oldal.</p>
-                               </div></section>
-               
-        </div>
-    </section>
+            </article>
+            <article>
+            <img src="/assets/pictures/malahir.jpg" alt="hírmagazin honlapja">
+                   <div class="right-content">
+                    <h4>Híroldalam.</h4>   
+                    <p>Hírek gyűjteménye sajátos szemszögből, a lehetséges valós tények alapján, cenzúra nélkül.</p>
+                       </div>
+                    </article>
+                    <article>           
+                       <img src="/assets/pictures/biosteril.jpg" alt="kártevőirtás honlapja">
+                           <div class="right-content">
+                               <h4>kártevőirtás</h4>
+                               <p>Napjaink komoly problémája a kártevők, csótányok, bogarak elzsaporodása, ezek megszüntetésére nyújt segítséget a céget reklámozó oldal.</p>
+                               </div>
+                    </article>
+                            </section>
+    </main>
     <footer>
-        <a href="#top">
-            <button class="btn">Ugrás az oldal tetejére</button>
-        </a>
+        <a href="#main-nav">Menü</a>
     </footer>
 </body>
 </html>

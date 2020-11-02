@@ -7,57 +7,46 @@
     <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-    <header><h1 class="left">Home</h1></header>
-    <nav>
+    <header>
+        <h3>Home</h3>
+    </header>
+    <nav id="main-nav">
         <ul>
-            <li>
-        <a href="/index.html">Home</a>
-    </li>
-</ul>
-        <ul>
-            <li>
-        <a href="/works.html">Works</a>
-    </li>
-</ul>
-        <ul>
-            <li>
-                <a href="/gallery.html">Gallery</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="/about.html">About</a>
-            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Munkáim</a></li>
+            <li><a href="gallery.html">Galéria</a></li>
+            <li><a href="about.html">Rólam</a></li>
         </ul>
     </nav>
 
-    
-
-    <main><p>Molnár László vagyok 42 éves, a home oldalamat látod, programozó szeretnék lenni. Jelenleg az elején tartok, remélem minden akadályt sikerül megugranom.</p>
-    </main>
+    <main id="index-main">
     <section>
+        <article>
+            <h4>Bemutatkozó</h4>
+            <p>Molnár László vagyok 42 éves, a home oldalamat látod, programozó szeretnék lenni. Jelenleg az elején tartok, remélem minden akadályt sikerül megugranom.</p>
+        </article>
+    </section>
+    <section class="img-container">    
         <img class="kep" src="/assets/pictures/pottery-5680464_1920.jpg" alt="portrait">
         <img class="kep" src="/assets/pictures/pumpkins-5646939_1920.jpg" alt="halloween">
     </section>
     
     <section>
         
-       <div class="div-bal">
-                <p>hello! Nagyon vicces figura...</p>
+       <div class="behavior-box">
+                hello! Nagyon vicces figura...
                 </div>
-       <div class="div-bal">
-                <p>szia! Lelkes, mindig kitart a végsőkig!</p>
+       <div class="behavior-box">
+                szia! Lelkes, kitart a végsőkig!
                 </div>
-       <div class="div-jobb">
-                <p>Szia! Ügyes, precíz, mindent jól akar csinálni!</p>
+       <div class="behavior-box">
+                Szia! Ügyes, precíz!
                 </div>
         
     </section>
     
     <footer>
-        <a href="#top">
-            <button class="btn">Ugrás az oldal tetejére</button>
-        </a>
+        <a href="#main-nav">Menü</a>
     </footer>
 </body>
 </html>

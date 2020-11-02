@@ -1,54 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-p{
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.left{
-
-    text-align: left;
-    color: blue;
+header {
+    background-color: rgb(50, 50, 50);
+    height: 4em;
+    line-height: 4em;
 }
 
-.kep{
-    width: 400px;
+header h3 {
+    margin: 0;
+    padding-left: 2em;
 }
 
-.div-bal{
-    float: left;
-    width: 33%;
-    margin-bottom: 20px;
-}
-.div-jobb{
-    float: right;
-    width: 33%;
+#main-nav ul {
+    list-style-type: none;
 }
 
-.btn{
-    float: left;
-    text-align: left;
+#main-nav ul li {
+    display: inline-block;
 }
 
-img {
-    width: 200px;
-    box-shadow: 3px 3px 7px black;
-    margin: 10px;
-    padding: 10px;
-    
+section {
+    padding: 1em 2em;
+    background-color: rgb(200, 200, 200);
+    border: solid 1px white;
 }
 
-.divimg{
-    margin: 10px 10px 10px 10px;
+.img-container img {
+    width: 38%;
+    margin: 5%;
 }
 
-.works{
-    width: 50%;
-    float: left;
-    margin-bottom: 20px;
+.behavior-box {
+    display: inline-block;
+    width: 100%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    height: 5em;
+    line-height: 5em;
+    font-size: 2em;
+    border-radius: 3px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
 }
 
-.worksj{
-    width: 50%;
-    float: right;
-    margin-bottom: 20px;
+/* Works page. */
+#works-section article {
+    border-bottom: solid 2px white;
+    margin-bottom: 2em;
+}
+
+#works-section article img {
+    width: 25%;
+    margin-right: 2%;
+}
+
+#works-section article .right-content {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+/* Gallery page. */
+.gallery-container img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Tablet view. */
+@media screen and (min-width: 768px) {
+    .behavior-box {
+        width: 45%;
+    }
+
+    .gallery-container img {
+        width: 47%;
+    }
+}
+
+/* PC view. */
+@media screen and (min-width: 968px) {
+    .behavior-box {
+        width: 30%;
+    }
+
+    .gallery-container img {
+        width: 30%;
+        margin: 1%;
+    }
 }

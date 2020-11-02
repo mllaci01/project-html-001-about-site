@@ -40,3 +40,15 @@ img {
 .divimg{
     margin: 10px 10px 10px 10px;
 }
+
+.works{
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.worksj{
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+}
